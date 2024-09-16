@@ -1,0 +1,16 @@
+<section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Portfolio</h2>
+      <div class="row">
+        <div class="col-md-4" *ngFor="let project of projects">
+          <div class="card">
+            <img [src]="project.image" class="card-img-top" alt="{{project.title}}">
+            <div class="card-body">
+              <h5 class="card-title">{{project.title}}</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  

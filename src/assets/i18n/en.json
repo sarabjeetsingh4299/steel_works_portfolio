@@ -1,0 +1,33 @@
+{
+    "TITLE": "Welcome to Our Steel Railing Business",
+    "CONTACT": "Contact Us",
+    "YOUR_NAME": "Your Name",
+    "YOUR_EMAIL": "Your Email",
+    "YOUR_MESSAGE": "Your Message",
+    "SEND_MESSAGE": "Send Message",
+    "NAVBAR": {
+    "HOME": "Home",
+    "SERVICES": "Services",
+    "PORTFOLIO": "Portfolio",
+    "CONTACT": "Contact"
+  },
+  "CONTACT_Obj": {
+    "TITLE": "Contact Us",
+    "NAME": "Name",
+    "EMAIL": "Email",
+    "NAME_PLACEHOLDER": "Enter your name",
+    "EMAIL_PLACEHOLDER": "Enter your email",
+    "MESSAGE_PLACEHOLDER": "Enter your message",
+    "SUBMIT": "Submit"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "Steel Railings. All Rights Reserved."
+  },
+  "HOME": {
+    "TITLE": "Welcome to Steel Railings",
+    "DESCRIPTION": "Quality steel railing solutions for homes and businesses.",
+    "VIEW_WORK": "View Our Work"
+  }
+
+  }
+  
