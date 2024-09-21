@@ -4,13 +4,13 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand text-bold" href="#">
-          <img src="assets/logo.png" alt="Logo" width="60" ><strong> DIGWA STEEL WORKS</strong>
+          <img src="assets/logo.png" alt="Logo" width="60" ><strong> {{ "LOGO_HEAD" | translate}}</strong>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav m-auto">
             <li class="nav-item">
               <a class="nav-link" routerLink="/">{{ 'NAVBAR.HOME' | translate }}</a>
             </li>
@@ -25,7 +25,8 @@
             </li>
           </ul>
     
-          <div class="language-switch ms-3">
+          <div class="language-switch d-flex">
+            <h6 class="text-danger">{{ 'CHOOSELANG' | translate }}</h6>
             <select (change)="changeLanguage($event)" class="form-select">
               <option value="en" [selected]="currentLang === 'en'">English</option>
               <option value="hi" [selected]="currentLang === 'hi'">हिन्दी</option>

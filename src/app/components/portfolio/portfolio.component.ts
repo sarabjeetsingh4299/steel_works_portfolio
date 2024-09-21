@@ -6,9 +6,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
   projects = [
-    { title: 'Residential Railing', image: 'assets/project1.jpg' },
-    { title: 'Commercial Balcony Railing', image: 'assets/project2.jpg' }
+    { image: 'path/to/image1.jpg', translationKey: 'PROJECT1' },
+    { image: 'path/to/image2.jpg', translationKey: 'PROJECT2' },
+    { image: 'path/to/image3.jpg', translationKey: 'PROJECT3' }
   ];
+  
 
   constructor() {}
 

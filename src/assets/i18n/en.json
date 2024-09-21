@@ -5,6 +5,42 @@
     "YOUR_EMAIL": "Your Email",
     "YOUR_MESSAGE": "Your Message",
     "SEND_MESSAGE": "Send Message",
+    "CHOOSELANG": "Change Language",
+    "LOGO_HEAD": "DIGWA STEEL WORKS",
+    "OUR_SERVICES": {
+    "TITLE": "Our Services",
+    "CUSTOM_RAILINGS": {
+      "TITLE": "Custom Railings",
+      "DESCRIPTION": "We design and install custom railings to fit any style and space."
+    },
+    "COMMERCIAL_PROJECTS": {
+      "TITLE": "Commercial Projects",
+      "DESCRIPTION": "Expert railing solutions for large-scale commercial projects."
+    },
+    "RESIDENTIAL_PROJECTS": {
+      "TITLE": "Residential Projects",
+      "DESCRIPTION": "Enhance your home with stylish and durable steel railings."
+    }
+  },
+  "OUR_PORTFOLIO": {
+    "TITLE": "Our Portfolio",
+    "PROJECT1": {
+      "TITLE": "Custom Railings"
+    },
+    "PROJECT2": {
+      "TITLE": "Commercial Projects"
+    },
+    "PROJECT3": {
+      "TITLE": "Residential Projects"
+    }
+  },
+    "CUSTOMER_CONTACTS": {
+      "TITLE": "Customer Contacts",
+      "PHONE": "Phone",
+      "EMAIL": "Email",
+      "ADDRESS": "Address",
+      "CONTACT_BUTTON": "Contact"
+    },  
     "NAVBAR": {
     "HOME": "Home",
     "SERVICES": "Services",
@@ -28,6 +64,6 @@
     "DESCRIPTION": "Quality steel railing solutions for homes and businesses.",
     "VIEW_WORK": "View Our Work"
   }
-
+  
   }
   

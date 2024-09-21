@@ -1,6 +1,4 @@
-.language-switch {
-    margin-bottom: 20px;
-  }
+
   
   .language-switch button {
     margin-right: 10px;
@@ -46,3 +44,12 @@
     min-height: 100vh;
   }
   
+  a.nav-link {
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    transition: border 0.3s ease, border-radius 0.3s ease;
+}
+
+a.nav-link:hover {
+    border-bottom: 2px solid #dc3545;
+}
