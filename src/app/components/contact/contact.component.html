@@ -1,0 +1,17 @@
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">{{ 'CUSTOMER_CONTACTS.TITLE' | translate }}</h2>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let customer of customers">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{ customer.name }}</h5>
+            <p class="card-text"><strong>{{ 'CUSTOMER_CONTACTS.PHONE' | translate }}:</strong> {{ customer.phone }}</p>
+            <p class="card-text"><strong>{{ 'CUSTOMER_CONTACTS.ADDRESS' | translate }}:</strong> {{ customer.address }}</p>
+            <button class="btn btn-primary contact-button" (click)="callPhoneNumber(customer.phone)" >{{ 'CUSTOMER_CONTACTS.CONTACT_BUTTON' | translate }}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

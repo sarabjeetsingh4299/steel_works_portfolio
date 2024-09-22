@@ -1,0 +1,55 @@
+
+  
+  .language-switch button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .language-switch button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: #343a40; /* Dark background */
+    color: white; /* Light text */
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-fill {
+    flex: 1 1 auto;
+  }
+  
+  .min-vh-100 {
+    min-height: 100vh;
+  }
+  
+  a.nav-link {
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    transition: border 0.3s ease, border-radius 0.3s ease;
+}
+
+a.nav-link:hover {
+    border-bottom: 2px solid #dc3545;
+}

@@ -1,0 +1,47 @@
+
+<div class="d-flex flex-column min-vh-100">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-bold" href="#">
+          <img src="assets/logo.png" alt="Logo" width="60" ><strong> {{ "LOGO_HEAD" | translate}}</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/">{{ 'NAVBAR.HOME' | translate }}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/services">{{ 'NAVBAR.SERVICES' | translate }}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/portfolio">{{ 'NAVBAR.PORTFOLIO' | translate }}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/contact">{{ 'NAVBAR.CONTACT' | translate }}</a>
+            </li>
+          </ul>
+    
+          <div class="language-switch d-flex">
+            <h6 class="text-danger">{{ 'CHOOSELANG' | translate }}</h6>
+            <select (change)="changeLanguage($event)" class="form-select">
+              <option value="en" [selected]="currentLang === 'en'">English</option>
+              <option value="hi" [selected]="currentLang === 'hi'">हिन्दी</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="flex-fill">
+    <router-outlet></router-outlet>
+  </main>
+
+  <footer class="bg-dark text-light text-center py-3">
+    <p>&copy; 2024 Steel Railings. {{ 'FOOTER.COPYRIGHT' | translate }}</p>
+  </footer>
+</div>

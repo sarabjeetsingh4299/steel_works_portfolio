@@ -1,0 +1,16 @@
+section {
+    padding: 141px !important;
+    color: white;
+    background-image: url(/assets/image/hero-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-size: 100%;
+}
+
+h1,p{
+    color: white;
+    background: #212529c4;;
+    border-radius: 10px;
+    padding: 10px;
+}
