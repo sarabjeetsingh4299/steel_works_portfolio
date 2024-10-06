@@ -53,3 +53,9 @@
 a.nav-link:hover {
     border-bottom: 2px solid #dc3545;
 }
+
+@media screen and (max-width:998px) {
+  select.form-select {
+    width: 120px;
+}
+}
